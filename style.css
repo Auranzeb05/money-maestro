@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1C1C1C;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.cash-in-btn {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.cash-out-btn {
+    background-color: #dc3545;
+}
+
+.set-budget-btn, .update-graph-btn {
+    background-color: #007bff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.password-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-field input {
+    padding-right: 30px;
+}
+
+.password-field i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#budget-alert {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.arrow-section i {
+    font-size: 36px;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.arrow-section i:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}

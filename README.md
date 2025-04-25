@@ -34,7 +34,7 @@ A sleek and interactive front-end digital wallet built using HTML, CSS, and Java
 
 No installation or server required — it's a front-end project.
 ## 🌐 Live Demo
-[Click here to view]()
+[Click here to view](https://auranzeb05.github.io/Money-maestro/)
 
 ## 📄 License
 This project is for educational and personal use only. Please do not copy without credit.
